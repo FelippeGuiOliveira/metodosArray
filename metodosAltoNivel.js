@@ -45,9 +45,12 @@ console.log('----------------------------------------------------------------');
 let idades = [16, 48, 23, 22, 45, 8, 12]
 
 // A
-idades.filter((maiores) => {
+let maiores = idades.filter((maiores) => {
     return maiores >= 18
 })
+
+console.log(`Maiores de idade: ${maiores}`);
+console.log('===============');
 
 // B
 idades.forEach((idades) => {
